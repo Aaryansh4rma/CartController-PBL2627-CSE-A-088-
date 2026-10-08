@@ -6,7 +6,7 @@ RUN rm -rf /usr/local/tomcat/webapps/ROOT
 
 # Copy your WAR file into Tomcat and rename it to ROOT.war 
 # (Renaming it to ROOT.war ensures your app opens directly on the main URL)
-COPY shopadmin.war /usr/local/tomcat/webapps/ROOT.war
+COPY ShopAdmin.war /usr/local/tomcat/webapps/ROOT.war
 
 # Expose the standard web port
 EXPOSE 8080
